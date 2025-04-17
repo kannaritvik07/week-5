@@ -1,0 +1,25 @@
+blue_shades = ['navy', 'sky blue', 'saphire', 'powder blue', 'teal', 'turquoise']
+blue_shades[2] = 'sapphire'
+
+print(blue_shades)
+
+
+blue_shades = ['navy', 'sky blue', 'sapphire', 'powder blue', 'teal', 'turquoise']
+blue_shades[0:2] = ['denim', 'aqua']
+
+print(blue_shades)
+
+
+blue_shades = ['navy', 'sky blue', 'sapphire', 'powder blue', 'teal', 'turquoise']
+blue_shades[0:1] = ['denim', 'aqua']
+print(blue_shades)
+
+
+blue_shades = ['navy', 'sky blue', 'sapphire', 'powder blue', 'teal', 'turquoise']
+blue_shades[0:4] = ['denim', 'aqua']
+print(blue_shades)
+
+
+blue_shades = ['navy', 'sky blue', 'sapphire', 'powder blue', 'teal', 'turquoise']
+blue_shades = ['cobalt', 'azure', 'ice blue']
+print(blue_shades)
