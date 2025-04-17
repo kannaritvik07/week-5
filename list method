@@ -1,0 +1,20 @@
+python_versions = ["Python 2", "Python 3"]
+python_versions.append("Python 3.11")
+
+print(python_versions)
+
+
+python_modules = ["NumPy", "Pandas"]
+additional_modules = ["Matplotlib", "scikit-learn"]
+python_modules.extend(additional_modules)
+print(python_modules)
+
+
+programming_languages = ["C", "Java", "Python", "Ruby"]
+programming_languages.insert(1, "C++")
+print(programming_languages)
+
+
+web_frameworks = ["Django", "Flask", "Pyramid", "FastAPI"]
+removed_framework = web_frameworks.pop(2)
+print(web_frameworks)
