@@ -1,0 +1,27 @@
+space_movies = ['Interstellar', 'Gravity', 'The Martian', 'Apollo 13', 'Star Wars']
+print(space_movies)
+
+del space_movies[2]
+print(space_movies)
+
+
+space_movies = ['Interstellar', 'Gravity', 'The Martian', 'Apollo 13', 'Star Wars']
+del space_movies[1:3]
+print(space_movies)
+
+
+space_movies = ['Interstellar', 'Gravity', 'The Martian', 'Apollo 13', 'Star Wars']
+print(space_movies)
+space_movies.remove('Gravity')
+print(space_movies)
+
+
+space_movies = ['Interstellar', 'Gravity', 'The Martian', 'Apollo 13', 'Star Wars']
+space_movies.clear()
+print(space_movies)
+
+
+space_movies = ['Interstellar', 'Gravity', 'The Martian', 'Apollo 13', 'Star Wars']
+removed_movie = space_movies.pop(2)
+print("The removed movie is = " + removed_movie)
+print(space_movies)
